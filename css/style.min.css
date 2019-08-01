@@ -13,9 +13,8 @@
 }
 
 .post__container {
-  position: relative;
-  width: 30%;
-  height: 280px;
+  width: 45%;
+  height: 350px;
   margin: 10px 0;
   border: 1px solid black;
   display: flex;
@@ -25,7 +24,8 @@
 
 .post__title {
   text-align: center;
-  margin: 15px 10px 0 10px
+  margin: 15px 10px 0;
+  color: #123b1d
 }
 
 .post__text {
@@ -34,6 +34,31 @@
 }
 
 .post__button {
-  position: absolute;
-  bottom: 20px
+  height: 40px;
+  width: 120px;
+  border: none;
+  color: white;
+  background-color: #141347;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+.post__button:disabled {
+  visibility: hidden
+}
+
+.comment {
+  width: 400px
+}
+
+.comment__author {
+  margin: 20px 0 0;
+  font-size: 18px;
+  color: #120e36
+}
+
+.comment__text {
+  margin: 5px 0;
+  color: #2f2774
 }
